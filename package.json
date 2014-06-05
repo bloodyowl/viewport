@@ -1,7 +1,7 @@
 {
   "name": "bloody-viewport",
   "version": "0.0.0",
-  "description": "",
+  "description": "viewport based router",
   "main": "index.js",
   "directories": {
     "test": "test"

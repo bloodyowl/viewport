@@ -3,7 +3,7 @@
 [![browser support](https://ci.testling.com/bloodyowl/viewport.png)
 ](https://ci.testling.com/bloodyowl/viewport)
 
-viewport based router
+horizontal viewport based router
 
 ## install
 

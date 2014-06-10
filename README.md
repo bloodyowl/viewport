@@ -64,7 +64,7 @@ var router = viewport()
 
 router
   .use({
-    // viewport <= 320
+    // viewportWidth <= 320
     range : [0, 320],
     on : function(){
       mobileHeader.init()
@@ -74,7 +74,7 @@ router
     }
   })
   .use({
-    // 240 <= viewport <= 768
+    // 240 <= viewportWidth <= 768
     range : [240, 768],
     on : function(){
       sideNav.init()
@@ -84,7 +84,7 @@ router
     }
   })
   .use({
-    // viewport > 1024
+    // viewportWidth > 1024
     range : [1024, Infinity],
     on : function(){
       backgroundResizer.init()
